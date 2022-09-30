@@ -23,7 +23,6 @@ function App() {
     }
   };
     
-  
   useEffect(() => {
     loadData();
   }, []);
@@ -45,6 +44,7 @@ function App() {
     return <p key={item.strCategory}>{item.strCategory}</p>;
   });
 
+  
   return (
     <Layout className="layout">
       <Navbar />
