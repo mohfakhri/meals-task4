@@ -8,7 +8,6 @@ import { GiFoodTruck } from "react-icons/gi";
 import { MdFoodBank } from "react-icons/md";
 const { Header } = Layout;
 
-
 function Navbar() {
   const navigate = useNavigate();
   return (
