@@ -22,6 +22,7 @@ function App() {
       console.error(error);
     }
   };
+    
   
   useEffect(() => {
     loadData();
