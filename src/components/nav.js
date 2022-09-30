@@ -15,7 +15,7 @@ function Navbar() {
       <Header
         style={{
           position: "relative",
-          zIndex: 1,
+          zIndex: 1,  
           width: "100%",
         }}
       >
